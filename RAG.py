@@ -33,7 +33,7 @@ def init_models_and_index():
     bi_encoder = SentenceTransformer("intfloat/e5-large-v2")
     cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
-    with open("/usr/local/bin/Newdata.txt", "r", encoding="utf-8") as f:
+    with open("./Newdata.txt", "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f.readlines() if line.strip()]
 
     chunks = []
