@@ -56,6 +56,10 @@ app.post("/feed-message", async (req, res) => {
   }
 });
 
+app.get("/test", async (req, res)=>{
+  res.send("testing apis");
+})
+
 // Start the server
 const PORT = process.env.PORT || 8055;
 app.listen(PORT, () => {
