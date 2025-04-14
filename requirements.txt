@@ -1,8 +1,0 @@
-torch
-faiss-cpu
-numpy
-pydub
-sentence-transformers
-transformers
-edge-tts
-colorama
