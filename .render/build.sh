@@ -11,6 +11,7 @@ apt-get update && apt-get install -y python3 python3-pip ffmpeg
 
 # 🐍 Install Python dependencies
 echo "🐍 Installing Python packages from requirements.txt..."
+cd ../
 pip3 install -r requirements.txt
 
 # 🟢 Install Node.js dependencies
